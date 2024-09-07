@@ -29,7 +29,10 @@ const Contact = () => {
   };
 
   const openFacebook = () => {
-    window.open("https://www.facebook.com/yourprofile", "_blank"); // Opens Facebook in a new tab
+    window.open(
+      "https://www.facebook.com/profile.php?id=61565379877004",
+      "_blank"
+    ); // Opens Facebook in a new tab
   };
 
   const openInstagram = () => {
@@ -83,7 +86,7 @@ const Contact = () => {
             <div className="absolute top-14 left-0 w-full p-6 bg-white rounded-lg z-10 shadow-2xl">
               <div className="mt-5">
                 <h2 className="text-xl font-bold">whatsapp us</h2>
-                <span>ph.no: +91 63614 68385</span>
+                <span>+91 63614 68385</span>
                 <a
                   onClick={openWhatsApp}
                   className=" text-red-700 px-4 py-2 hover:cursor-pointer font-extrabold"
@@ -103,10 +106,10 @@ const Contact = () => {
                 loading="lazy"
               />
             </div>
-            <div className="absolute top-14 left-0 w-full p-6 bg-white rounded-lg z-10 shadow-2xl">
+            <div className="absolute top-14 left-0 w-full p-6 pr-2 bg-white rounded-lg z-10 shadow-2xl">
               <div className="mt-5">
                 <h2 className="text-xl font-bold">Mail Us</h2>
-                <span>Id: fuzedminds2024@gmail.com</span>
+                <span>fuzedminds2024@gmail.com</span>
 
                 <a
                   onClick={sendEmail}
@@ -130,7 +133,7 @@ const Contact = () => {
             <div className="absolute top-14 left-0 w-full p-6 bg-white rounded-lg z-10 shadow-2xl">
               <div className="mt-5">
                 <h2 className="text-xl font-bold">Linkedin </h2>
-                <span>Page: /fuzedminds</span>
+                <span>/fuzedminds</span>
                 <a
                   onClick={openLinkedIn}
                   className=" text-red-700 px-4 py-2 hover:cursor-pointer font-extrabold"
@@ -150,10 +153,10 @@ const Contact = () => {
                 loading="lazy"
               />
             </div>
-            <div className="absolute top-14 left-0 w-full p-6 bg-white rounded-lg z-10 shadow-2xl">
+            <div className="absolute top-14 left-0 w-full p-6 pr-2 bg-white rounded-lg z-10 shadow-2xl">
               <div className="mt-5">
                 <h2 className="text-xl font-bold">Facebook</h2>
-                <span>FB Page: /fuzedminds</span>
+                <span>/fuzedminds Technologies</span>
                 <a
                   onClick={openFacebook}
                   className=" text-red-700 px-4 py-2 hover:cursor-pointer font-extrabold"
@@ -176,7 +179,7 @@ const Contact = () => {
             <div className="absolute top-14 left-0 w-full p-6 bg-white rounded-lg z-10 shadow-2xl">
               <div className="mt-5">
                 <h2 className="text-xl font-bold">Instagram</h2>
-                <span>Profile: /fuzedminds</span>
+                <span>/fuzedminds</span>
                 <a
                   onClick={openInstagram}
                   className=" text-red-700 px-4 py-2 hover:cursor-pointer font-extrabold"
@@ -199,7 +202,7 @@ const Contact = () => {
             <div className="absolute top-14 left-0 w-full p-6 bg-white rounded-lg z-10 shadow-2xl">
               <div className="mt-5">
                 <h2 className="text-xl font-bold">Call Us On</h2>
-                <span>X handel: /fuzedMindsTech</span>
+                <span>/fuzedMindsTech</span>
                 <a
                   onClick={openTwitter}
                   className=" text-red-700 px-4 py-2 hover:cursor-pointer font-extrabold"
