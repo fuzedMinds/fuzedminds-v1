@@ -28,7 +28,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("fuzedMinds | Your only choice !!");
+  useDocTitle("fuzedMinds | IT solutions");
 
   return (
     <>

@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Top area: Blocks */}
           <div className="flex flex-wrap justify-center p-3">
             {/* 1st block */}
-            <div className="col-span-12 lg:col-span-4 w-[357px] m-3 text-center">
+            <div className="col-span-12 lg:col-span-4 w-[257px] m-3 text-center">
               <div className="box-border  text-gray-600 text-center  xl:w-80 mx-auto">
                 <h3 className="font-bold text-4xl mb-4">fuzedMinds</h3>
                 <div className="text-md font-medium text-gray-600">
@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
 
             {/* 2nd block */}
-            <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 w-[357px] m-3 text-center">
+            <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 w-[257px] m-3 text-center">
               <h6 className="text-[#013289] text-xl font-bold mb-4">LINKS</h6>
               <ul className="text-md">
                 <li className="mb-2">
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
 
             {/* 3rd block */}
-            <div className="col-span-5 md:col-span-6 lg:col-span-4 w-[357px] m-3 text-center">
+            <div className="col-span-5 md:col-span-6 lg:col-span-4 w-[257px] m-3 text-center">
               <h6 className="text-[#013289] text-xl font-bold mb-4">
                 OUR SERVICES
               </h6>
@@ -94,7 +94,7 @@ const Footer = () => {
             </div>
 
             {/* 4th block */}
-            <div className="col-span-12 text-center lg:col-span-3 font-bold uppercase text-blue-900 w-[357px] m-3">
+            <div className="col-span-12 text-center lg:col-span-3 font-bold uppercase text-blue-900 w-[257px] m-3">
               <div className="text-xl mb-6">Social Media Links.</div>
 
               <div className="text-md font-medium mb-6">

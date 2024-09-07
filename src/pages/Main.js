@@ -13,12 +13,13 @@ const Main = () => {
   //
   // <Portfolio />
   //    <Cta />
+  //      <Clients />
   return (
     <body className="overflow-x-hidden">
       <Home />
       <Services />
       <About />
-      <Clients />
+
       <Footer />
 
       <div className="rounded-lg group fixed bottom-52 md:bottom-72 right-0 p-2  flex w-40 h-14 bg-[#38b000] hover:bg-[#494bf5] shadow-xl cursor-pointer  items-center">

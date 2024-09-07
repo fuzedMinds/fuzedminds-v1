@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavLinks from "../Navbar/NavLinks";
 import { HashLink } from "react-router-hash-link";
-import logo from "../../images/logo.webp";
+import logo from "../../images/fuzedMinds-full-logo.png";
 
 const NavBar = () => {
   const [top, setTop] = useState(!window.scrollY);
