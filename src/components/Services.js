@@ -225,7 +225,7 @@ const Services = () => {
                 className="text-3xl  text-blue-900 
                             font-bold"
               >
-                We <span className="font-black">Guid</span>
+                We <span className="font-black">Guide</span>
               </h3>
               <div>
                 <p className="my-3 text-md font-medium">
