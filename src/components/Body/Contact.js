@@ -24,7 +24,10 @@ const Contact = () => {
   };
 
   const openLinkedIn = () => {
-    window.open("https://www.linkedin.com/in/fuzedminds", "_blank");
+    window.open(
+      "https://www.linkedin.com/company/fuzedminds-technologies/",
+      "_blank"
+    );
     //window.location.href = "https://www.linkedin.com/in/fuzedminds"; // Replace with the desired LinkedIn profile URL
   };
 
