@@ -12,6 +12,7 @@ import Internship from "./components/Body/Internship";
 import Training from "./components/Body/Training";
 import Main from "./pages/Main";
 import Contact from "./components/Body/Contact";
+import { Helmet } from "react-helmet";
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,14 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <title>fuzedMinds</title>
+        <meta
+          name="description"
+          content="Your business, your rules. We'll build the software to match.
+        We'll create software that perfectly fits your company's specific needs and way of doing things."
+        />
+      </Helmet>
       <Router>
         <ScrollToTop>
           <Routes>

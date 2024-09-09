@@ -124,11 +124,33 @@ const Footer = () => {
                       aria-label="Facebook"
                     >
                       <svg
-                        className="w-8 h-8 fill-current"
-                        viewBox="0 0 32 32"
                         xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="100"
+                        height="100"
+                        viewBox="0 0 64 64"
                       >
-                        <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
+                        <path d="M32,6C17.642,6,6,17.642,6,32c0,13.035,9.603,23.799,22.113,25.679V38.89H21.68v-6.834h6.433v-4.548	c0-7.529,3.668-10.833,9.926-10.833c2.996,0,4.583,0.223,5.332,0.323v5.965h-4.268c-2.656,0-3.584,2.52-3.584,5.358v3.735h7.785	l-1.055,6.834h-6.73v18.843C48.209,56.013,58,45.163,58,32C58,17.642,46.359,6,32,6z"></path>
+                      </svg>
+                    </Link>
+                  </li>
+
+                  <li className="ml-4">
+                    <Link
+                      to="#"
+                      className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                      aria-label="X"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M 2.3671875 3 L 9.4628906 13.140625 L 2.7402344 21 L 5.3808594 21 L 10.644531 14.830078 L 14.960938 21 L 21.871094 21 L 14.449219 10.375 L 20.740234 3 L 18.140625 3 L 13.271484 8.6875 L 9.2988281 3 L 2.3671875 3 z M 6.2070312 5 L 8.2558594 5 L 18.033203 19 L 16.001953 19 L 6.2070312 5 z"></path>
                       </svg>
                     </Link>
                   </li>
@@ -138,7 +160,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-wrap items-center md:justify-between justify-center mx-auto px-4">
-            <div className="w-full md:w-4/12 px-4 mx-auto text-center py-2">
+            <div className="w-full md:w-4/5 px-4 mx-auto text-center py-2">
               <div className="text-sm text-black font-semibold py-1">
                 Copyright &copy; {new Date().getFullYear()}
                 {"  "}

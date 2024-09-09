@@ -204,7 +204,7 @@ const Contact = () => {
             </div>
             <div className="absolute top-14 left-0 w-full p-6 bg-white rounded-lg z-10 shadow-2xl">
               <div className="mt-5">
-                <h2 className="text-xl font-bold">Call Us On</h2>
+                <h2 className="text-xl font-bold">X (twitter)</h2>
                 <span>/fuzedMindsTech</span>
                 <a
                   onClick={openTwitter}
