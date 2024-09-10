@@ -3,6 +3,28 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
+  const openFacebook = () => {
+    window.open(
+      "https://www.facebook.com/profile.php?id=61565379877004",
+      "_blank"
+    ); // Opens Facebook in a new tab
+  };
+
+  const openInstagram = () => {
+    window.open("https://www.instagram.com/fuzedminds", "_blank"); // Replace with the desired Instagram profile URL
+  };
+
+  const openTwitter = () => {
+    window.open("https://x.com/fuzedMindsTech", "_blank"); // Replace with the desired Twitter profile URL
+  };
+
+  const openLinkedIn = () => {
+    window.open(
+      "https://www.linkedin.com/company/fuzedminds-technologies/",
+      "_blank"
+    );
+  };
+
   return (
     <>
       <footer>
@@ -105,21 +127,77 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
+                      onClick={openInstagram}
                       className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Twitter"
                     >
                       <svg
-                        className="w-8 h-8 fill-current"
-                        viewBox="0 0 32 32"
                         xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
                       >
-                        <path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z" />
+                        <radialGradient
+                          id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1"
+                          cx="19.38"
+                          cy="42.035"
+                          r="44.899"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop offset="0" stop-color="#fd5"></stop>
+                          <stop offset=".328" stop-color="#ff543f"></stop>
+                          <stop offset=".348" stop-color="#fc5245"></stop>
+                          <stop offset=".504" stop-color="#e64771"></stop>
+                          <stop offset=".643" stop-color="#d53e91"></stop>
+                          <stop offset=".761" stop-color="#cc39a4"></stop>
+                          <stop offset=".841" stop-color="#c837ab"></stop>
+                        </radialGradient>
+                        <path
+                          fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)"
+                          d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+                        ></path>
+                        <radialGradient
+                          id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2"
+                          cx="11.786"
+                          cy="5.54"
+                          r="29.813"
+                          gradientTransform="matrix(1 0 0 .6663 0 1.849)"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop offset="0" stop-color="#4168c9"></stop>
+                          <stop
+                            offset=".999"
+                            stop-color="#4168c9"
+                            stop-opacity="0"
+                          ></stop>
+                        </radialGradient>
+                        <path
+                          fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)"
+                          d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+                        ></path>
+                        <path
+                          fill="#fff"
+                          d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"
+                        ></path>
+                        <circle
+                          cx="31.5"
+                          cy="16.5"
+                          r="1.5"
+                          fill="#fff"
+                        ></circle>
+                        <path
+                          fill="#fff"
+                          d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"
+                        ></path>
                       </svg>
                     </Link>
                   </li>
                   <li className="ml-4">
                     <Link
                       to="#"
+                      onClick={openTwitter}
                       className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Facebook"
                     >
@@ -127,18 +205,36 @@ const Footer = () => {
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
                         y="0px"
-                        width="100"
-                        height="100"
-                        viewBox="0 0 64 64"
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
                       >
-                        <path d="M32,6C17.642,6,6,17.642,6,32c0,13.035,9.603,23.799,22.113,25.679V38.89H21.68v-6.834h6.433v-4.548	c0-7.529,3.668-10.833,9.926-10.833c2.996,0,4.583,0.223,5.332,0.323v5.965h-4.268c-2.656,0-3.584,2.52-3.584,5.358v3.735h7.785	l-1.055,6.834h-6.73v18.843C48.209,56.013,58,45.163,58,32C58,17.642,46.359,6,32,6z"></path>
+                        <path
+                          fill="#212121"
+                          fill-rule="evenodd"
+                          d="M38,42H10c-2.209,0-4-1.791-4-4V10c0-2.209,1.791-4,4-4h28	c2.209,0,4,1.791,4,4v28C42,40.209,40.209,42,38,42z"
+                          clip-rule="evenodd"
+                        ></path>
+                        <path
+                          fill="#fff"
+                          d="M34.257,34h-6.437L13.829,14h6.437L34.257,34z M28.587,32.304h2.563L19.499,15.696h-2.563 L28.587,32.304z"
+                        ></path>
+                        <polygon
+                          fill="#fff"
+                          points="15.866,34 23.069,25.656 22.127,24.407 13.823,34"
+                        ></polygon>
+                        <polygon
+                          fill="#fff"
+                          points="24.45,21.721 25.355,23.01 33.136,14 31.136,14"
+                        ></polygon>
                       </svg>
                     </Link>
                   </li>
 
                   <li className="ml-4">
                     <Link
-                      to="#"
+                      to="/"
+                      onClick={openLinkedIn}
                       className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="X"
                     >
@@ -146,11 +242,44 @@ const Footer = () => {
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
                         y="0px"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
                       >
-                        <path d="M 2.3671875 3 L 9.4628906 13.140625 L 2.7402344 21 L 5.3808594 21 L 10.644531 14.830078 L 14.960938 21 L 21.871094 21 L 14.449219 10.375 L 20.740234 3 L 18.140625 3 L 13.271484 8.6875 L 9.2988281 3 L 2.3671875 3 z M 6.2070312 5 L 8.2558594 5 L 18.033203 19 L 16.001953 19 L 6.2070312 5 z"></path>
+                        <path
+                          fill="#0288D1"
+                          d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"
+                        ></path>
+                        <path
+                          fill="#FFF"
+                          d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"
+                        ></path>
+                      </svg>
+                    </Link>
+                  </li>
+                  <li className="ml-4">
+                    <Link
+                      to="/"
+                      onClick={openFacebook}
+                      className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                      aria-label="X"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
+                      >
+                        <path
+                          fill="#039be5"
+                          d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"
+                        ></path>
+                        <path
+                          fill="#fff"
+                          d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z"
+                        ></path>
                       </svg>
                     </Link>
                   </li>
