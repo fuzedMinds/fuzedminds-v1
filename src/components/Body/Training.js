@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { Helmet } from "react-helmet";
 import NavBar from "../Navbar/NavBar";
 import Footer from "../Footer";
 import img1 from "../../images/pre-placement-training-java.avif";
@@ -6,6 +7,12 @@ import img1 from "../../images/pre-placement-training-java.avif";
 const Training = () => {
   return (
     <>
+      <Helmet>
+        <link rel="canonical" href="https://www.fuzedminds.com/training" />
+        <title>fuzedMinds - Training</title>
+        <meta name="description" content="Join our Training program at Fuzed Minds and start your IT career." />
+      </Helmet>
+
       <div id="training" className="training">
         <div>
           <NavBar />
