@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import NavBar from "../Navbar/NavBar";
 import Footer from "../Footer";
 import phone from "../../images/phone.png";
@@ -8,7 +9,6 @@ import linkedIn from "../../images/linkedin.png";
 import instagram from "../../images/instagram.png";
 import facebook from "../../images/facebook.png";
 import x from "../../images/x.png";
-import { HashLink } from "react-router-hash-link";
 
 const Contact = () => {
   const openDialer = () => {
@@ -48,6 +48,10 @@ const Contact = () => {
 
   return (
     <>
+      <Helmet>
+          <link rel="canonical" href="https://www.fuzedminds.com/contact" />
+          <title>fuzedMinds - Contact</title>
+      </Helmet>
       <div className="bg-gray-100 ">
         <div>
           <NavBar />
