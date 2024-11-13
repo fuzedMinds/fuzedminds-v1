@@ -20,7 +20,7 @@ const Contact = () => {
   };
 
   const sendEmail = () => {
-    window.location.href = "mailto:fuzedminds2024@gmail.com"; // Replace with the desired email address
+    window.location.href = "mailto:hr@fuzedminds.com"; // Replace with the desired email address
   };
 
   const openLinkedIn = () => {
