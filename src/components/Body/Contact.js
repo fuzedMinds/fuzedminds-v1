@@ -116,7 +116,7 @@ const Contact = () => {
             <div className="absolute top-14 left-0 w-full p-6 pr-2 bg-white rounded-lg z-10 shadow-2xl">
               <div className="mt-5">
                 <h2 className="text-xl font-bold">Mail Us</h2>
-                <span>fuzedminds2024@gmail.com</span>
+                <span>hr@fuzedminds.com</span>
 
                 <a
                   onClick={sendEmail}
