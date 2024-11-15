@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import NavBar from "../Navbar/NavBar";
 import Footer from "../Footer";
 import img1 from "../../images/java-backend.avif";
