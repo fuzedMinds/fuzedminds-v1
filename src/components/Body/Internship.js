@@ -5,7 +5,7 @@ import img1 from "../../images/java-backend.avif";
 import img2 from "../../images/java-react-fullstack.avif";
 import img3 from "../../images/java-angular-fullstack.avif";
 import img4 from "../../images/MERN.avif";
-import img5 from "../../images/MEAN.avif";import React from "react";
+import img5 from "../../images/MEAN.avif";
 import { Helmet } from "react-helmet";
 import NavBar from "../Navbar/NavBar";
 import Footer from "../Footer";
