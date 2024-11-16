@@ -33,6 +33,15 @@ height: auto;
   /* background-blend-mode: overlay */
 }
 
+.applicationdevelopement {
+  background: url(./images/applicationDevelopement.webp) top center no-repeat;
+  /* background-color: rgb(170, 166, 166); */
+  background-size: cover;
+  background-position:center ;
+  height: 540px;
+  /* background-blend-mode: overlay */
+}
+
 .footer {
   background: url(./images/footer.avif) top center no-repeat;
   background-size: cover;

@@ -10,6 +10,7 @@ import { useDocTitle } from "./components/CustomHook";
 import ScrollToTop from "./components/ScrollToTop";
 import Internship from "./components/Body/Internship";
 import Training from "./components/Body/Training";
+import ApplicationDevelopement from "./components/Body/ApplicationDevelopement";
 import Main from "./pages/Main";
 import Contact from "./components/Body/Contact";
 import { Helmet } from "react-helmet";
@@ -49,6 +50,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/internship" element={<Internship />} />
             <Route path="/training" element={<Training />} />
+            <Route path="/applicationdevelopement" element={<ApplicationDevelopement />} />
           </Routes>
         </ScrollToTop>
       </Router>
