@@ -13,15 +13,16 @@ import img8 from "../../images/REACT.webp";
 import img9 from "../../images/ANGULAR.webp";
 
 const Internship = () => {
-  const java = "";
-  const javaAndReact = "";
+  const java = "https://forms.office.com/r/w8XwSN8H8h";
+  const javaAndReact = "https://forms.office.com/r/RzcpGs3Dm6";
   const javaAndAngular = "https://forms.office.com/r/Yb01xcYbsX";
-  const mern = "";
-  const mean = "";
-  const react = "";
-  const angular = "";
-  const python = "";
-  const dotNet = "";
+  const mern = "https://forms.office.com/r/RfZj23mB8W";
+  const mean = "https://forms.office.com/r/7RsgtLFDwy";
+  const react = "https://forms.office.com/r/wgjbmQSaEZ";
+  const angular = "https://forms.office.com/r/1VEiANwFPg";
+  const python = "https://forms.office.com/r/w8h0vHdPZp";
+  const dotNet = "https://forms.office.com/r/yW4XaPDFT9";
+  const dotNetAndAngular = "https://forms.office.com/r/0mjnj3gvyU";
   
   return (
     <>
@@ -84,7 +85,7 @@ const Internship = () => {
               </div>
               <div className=" flex justify-center items-center">
                 <a
-                  href="https://forms.office.com/r/w8XwSN8H8h"
+                  href={java}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -114,7 +115,7 @@ const Internship = () => {
               </div>
               <div className="flex justify-center items-center">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href={javaAndReact}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -174,7 +175,7 @@ const Internship = () => {
               </div>
               <div className="flex justify-center items-center">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href={mern}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -204,7 +205,7 @@ const Internship = () => {
               </div>
               <div className="flex justify-center items-center">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href={mean}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -224,16 +225,16 @@ const Internship = () => {
                   loading="lazy"
                 />
                 <h2 className="font-semibold my-4 text-2xl text-center">
-                  REACT JS <br />
+                  React js <br />
                   Developer
                 </h2>
                 <p className="text-md font-medium">
-                  Get an internship in realtime Angular js development.
+                  Get an internship in realtime React js development.
                 </p>
               </div>
               <div className="flex justify-center items-center">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href={react}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -255,16 +256,16 @@ const Internship = () => {
                   loading="lazy"
                 />
                 <h2 className="font-semibold my-4 text-2xl text-center">
-                  ANGULAR JS <br />
+                  Angular js <br />
                   Developer
                 </h2>
                 <p className="text-md font-medium">
-                  Get an internship in realtime React js fullstack development.
+                  Get an internship in realtime Angular js fullstack development.
                 </p>
               </div>
               <div className="flex justify-center items-center">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href={angular}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -293,7 +294,7 @@ const Internship = () => {
               </div>
               <div className="flex justify-center items-center">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href={python}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -322,7 +323,7 @@ const Internship = () => {
               </div>
               <div className="flex justify-center items-center ">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href={dotNet}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
