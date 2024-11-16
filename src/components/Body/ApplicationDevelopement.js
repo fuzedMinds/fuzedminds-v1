@@ -2,11 +2,11 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import NavBar from "../Navbar/NavBar";
 import Footer from "../Footer";
-import img5 from "../images/build.svg";
-import img6 from "../images/collaberate.svg";
-import img7 from "../images/train.svg";
-import img8 from "../images/guide.svg";
-import img9 from "../images/solve.svg";
+import img5 from "../../images/build.svg";
+import img6 from "../../images/collaberate.svg";
+import img7 from "../../images/train.svg";
+import img8 from "../../images/guide.svg";
+import img9 from "../../images/solve.svg";
 
 const Training = () => {
   return (
