@@ -9,6 +9,8 @@ import img4 from "../../images/MERN.avif";
 import img5 from "../../images/MEAN.avif";
 import img6 from "../../images/Python.avif";
 import img7 from "../../images/dot-net.avif";
+import img8 from "../../images/REACT.webp";
+import img9 from "../../images/ANGULAR.webp";
 
 const Internship = () => {
   return (
@@ -72,7 +74,7 @@ const Internship = () => {
               </div>
               <div className=" flex justify-center items-center">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href="https://forms.office.com/r/w8XwSN8H8h"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -188,6 +190,66 @@ const Internship = () => {
                 <p className="text-md font-medium">
                   Get an internship in realtime Mongo db, Express js, Angular,
                   Node js fullstack development.
+                </p>
+              </div>
+              <div className="flex justify-center items-center">
+                <a
+                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-white  bg-[#38b000] hover:bg-[#494bf5]  inline-flex  w-auto px-6 py-3 shadow-xl rounded-xl text-center justify-center items-center">
+                    Apply
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 rounded-lg shadow-2xl p-3 group w-[300px] m-3 ">
+              <div className="text-justify text-sm h-[320px]">
+                <img
+                  alt="card img"
+                  className="rounded-md "
+                  src={img8}
+                  loading="lazy"
+                />
+                <h2 className="font-semibold my-4 text-2xl text-center">
+                  REACT JS <br />
+                  Developer
+                </h2>
+                <p className="text-md font-medium">
+                  Get an internship in realtime Angular js development.
+                </p>
+              </div>
+              <div className="flex justify-center items-center">
+                <a
+                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-white  bg-[#38b000] hover:bg-[#494bf5]  inline-flex  w-auto px-6 py-3 shadow-xl rounded-xl text-center justify-center items-center">
+                    Apply
+                  </button>
+                </a>
+              </div>
+            </div>
+
+
+
+            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 rounded-lg shadow-2xl p-3 group w-[300px] m-3 ">
+              <div className="text-justify text-sm h-[320px]">
+                <img
+                  alt="card img"
+                  className="rounded-md "
+                  src={img9}
+                  loading="lazy"
+                />
+                <h2 className="font-semibold my-4 text-2xl text-center">
+                  ANGULAR JS <br />
+                  Developer
+                </h2>
+                <p className="text-md font-medium">
+                  Get an internship in realtime React js fullstack development.
                 </p>
               </div>
               <div className="flex justify-center items-center">
