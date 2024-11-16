@@ -13,6 +13,16 @@ import img8 from "../../images/REACT.webp";
 import img9 from "../../images/ANGULAR.webp";
 
 const Internship = () => {
+  const java = "";
+  const javaAndReact = "";
+  const javaAndAngular = "https://forms.office.com/r/Yb01xcYbsX";
+  const mern = "";
+  const mean = "";
+  const react = "";
+  const angular = "";
+  const python = "";
+  const dotNet = "";
+  
   return (
     <>
       <Helmet>
@@ -134,7 +144,7 @@ const Internship = () => {
               </div>
               <div className="flex justify-center items-center">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href={javaAndAngular}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
