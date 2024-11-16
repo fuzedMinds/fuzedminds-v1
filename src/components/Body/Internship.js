@@ -11,6 +11,8 @@ import img6 from "../../images/Python.avif";
 import img7 from "../../images/dot-net.avif";
 import img8 from "../../images/REACT.webp";
 import img9 from "../../images/ANGULAR.webp";
+import img10 from "../../images/dot-net-angular.webp";
+
 
 const Internship = () => {
   const java = "https://forms.office.com/r/w8XwSN8H8h";
@@ -314,16 +316,45 @@ const Internship = () => {
                   loading="lazy"
                 />
                 <h2 className="font-semibold my-4 text-2xl text-center">
-                  .NET fullstack <br />
+                  .NET backend <br />
                   Developer
                 </h2>
                 <p className="text-md font-medium">
-                  Get an internship in realtime .net fullstack development.
+                  Get an internship in realtime .net backend development.
                 </p>
               </div>
               <div className="flex justify-center items-center ">
                 <a
                   href={dotNet}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-white  bg-[#38b000] hover:bg-[#494bf5]  inline-flex  w-auto px-6 py-3 shadow-xl rounded-xl text-center justify-center items-center ">
+                    Apply
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 rounded-lg shadow-2xl p-3 group w-[300px] m-3 ">
+              <div className="text-justify text-sm h-[320px]">
+                <img
+                  alt="card img"
+                  className="rounded-md "
+                  src={img10}
+                  loading="lazy"
+                />
+                <h2 className="font-semibold my-4 text-2xl text-center">
+                  .NET + Angular js fullstack <br />
+                  Developer
+                </h2>
+                <p className="text-md font-medium">
+                  Get an internship in realtime .net and Angular fullstack development.
+                </p>
+              </div>
+              <div className="flex justify-center items-center ">
+                <a
+                  href={dotNetAndAngular}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
