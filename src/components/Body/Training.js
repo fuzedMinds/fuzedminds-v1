@@ -5,6 +5,7 @@ import Footer from "../Footer";
 import img1 from "../../images/pre-placement-training-java.avif";
 
 const Training = () => {
+  const java = "https://forms.office.com/r/weMaFtFPyP";
   return (
     <>
       <Helmet>
@@ -71,7 +72,7 @@ const Training = () => {
               </div>
               <div className="flex justify-center items-center">
                 <a
-                  href="https://forms.gle/LzqanCp7FC7aa6Fr9"
+                  href={java}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
