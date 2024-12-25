@@ -49,12 +49,21 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-          <link rel="canonical" href="https://www.fuzedminds.com/contact" />
-          <title>fuzedMinds - Contact</title>
+        <link rel="canonical" href="https://www.fuzedminds.com/contact" />
+        <title>fuzedMinds - Contact</title>
       </Helmet>
       <div className="bg-gray-100 ">
         <div>
           <NavBar />
+        </div>
+        <div className="bg-[#056cb8] font-sans text-white md:h-[200px] h-[300px] flex text-center justify-center md:mt-12 mt-4">
+          <div className="mt-20 text-3xl">
+            Looking for something in particular?
+            <h1 className="text-xl mt-2">We're here to help.</h1>
+            <div className="flex justify-center">
+              <div className=" mt-4 w-24 border-b-4 border-yellow-500"></div>
+            </div>
+          </div>
         </div>
         <div className="flex flex-wrap justify-center pt-20  bg-gray-100 pb-20">
           {/*Phone */}

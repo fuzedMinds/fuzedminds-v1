@@ -28,13 +28,13 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-gray-100 border-t border-b py-30">
+        <div className=" max-w-full mx-auto px-4 sm:px-6 bg-gradient-to-tr from-blue-400 via-blue-300 to-gray-100 border-t border-b py-30 font-sans">
           {/* Top area: Blocks */}
           <div className="flex flex-wrap justify-center p-3">
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4 w-[257px] m-3 text-center">
               <div className="box-border  text-gray-600 text-center  xl:w-80 mx-auto">
-                <h3 className="font-bold text-4xl mb-4">fuzedMinds</h3>
+                <h3 className="text-black text-4xl mb-4">fuzedMinds</h3>
                 <div className="text-md font-medium text-gray-600">
                   <h5>Bhubaneswar</h5>
                   <p>Odisha</p>
@@ -45,7 +45,9 @@ const Footer = () => {
 
             {/* 2nd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 w-[257px] m-3 text-center">
-              <h6 className="text-[#013289] text-xl font-bold mb-4">LINKS</h6>
+              <h6 className="text-[#013289] text-xl font-semibold mb-4">
+                LINKS
+              </h6>
               <ul className="text-md">
                 <li className="mb-2">
                   <HashLink
@@ -76,7 +78,7 @@ const Footer = () => {
 
             {/* 3rd block */}
             <div className="col-span-5 md:col-span-6 lg:col-span-4 w-[257px] m-3 text-center">
-              <h6 className="text-[#013289] text-xl font-bold mb-4">
+              <h6 className="text-[#013289] text-xl font-semibold mb-4">
                 OUR SERVICES
               </h6>
               <ul className="text-md">
@@ -119,9 +121,11 @@ const Footer = () => {
 
             {/* 4th block */}
             <div className="col-span-12 text-center lg:col-span-3 font-bold uppercase text-blue-900 w-[257px] m-3">
-              <div className="text-xl mb-6">Social Media Links.</div>
+              <div className="text-xl mb-6 font-semibold">
+                Social Media Links
+              </div>
 
-              <div className="text-md font-medium mb-6">
+              <div className="text-md font-light mb-6">
                 Follow us on social media.
               </div>
               <div className="mx-auto text-center mt-2">

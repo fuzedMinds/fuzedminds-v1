@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import NavBar from "./Navbar/NavBar";
 import app from "../images/app.png";
 import aws from "../images/aws.png";
@@ -11,8 +11,10 @@ import gcp from "../images/gcp.png";
 import website from "../images/website.png";
 import linux from "../images/linux.png";
 import consult from "../images/consult.png";
+import { HashLink } from "react-router-hash-link";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Helmet>
@@ -39,26 +41,35 @@ const Home = () => {
               We'll create software that perfectly fits your business's specific
               needs and unique way of doing things.
             </div>
-            <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
-              <Link
-                to="/contact"
-                className="text-white bg-[#494bf5] hover:bg-[#fe7062] inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
-              >
-                Learn more
-                <svg
-                  className="w-4 h-4 ml-1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-              </Link>
-            </div>
+            <HashLink to="/services#">
+              <div class="relative group">
+                <button class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
+                  <span class="absolute inset-0 rounded-xl bg-gradient-to-r from-white via-red-500 to-orange-500 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
+
+                  <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
+                    <div class="relative z-10 flex items-center space-x-2">
+                      <span class="transition-all duration-500 group-hover:translate-x-1">
+                        Let's get started
+                      </span>
+                      <svg
+                        class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
+                        data-slot="icon"
+                        aria-hidden="true"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                  </span>
+                </button>
+              </div>
+            </HashLink>
           </div>
           <div className=" h-80  lg:w-1/2 lg:h-[540px] bg-red-400">
             <div className=" flex h-1/3 ">
