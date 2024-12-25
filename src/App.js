@@ -14,6 +14,7 @@ import ApplicationDevelopement from "./components/Body/ApplicationDevelopement";
 import Main from "./pages/Main";
 import Contact from "./components/Body/Contact";
 import { Helmet } from "react-helmet";
+import Services from "./components/Body/Services";
 
 function App() {
   useEffect(() => {
@@ -47,10 +48,15 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/home" element={<Main />} />
+            <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/career" element={<Internship />} />
             <Route path="/internship" element={<Internship />} />
             <Route path="/training" element={<Training />} />
-            <Route path="/applicationdevelopement" element={<ApplicationDevelopement />} />
+            <Route
+              path="/applicationdevelopement"
+              element={<ApplicationDevelopement />}
+            />
           </Routes>
         </ScrollToTop>
       </Router>

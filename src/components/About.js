@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <div className="about m-auto max-w-6xl p-2 md:p-12 h-5/6" id="about">
+      <div
+        className="about m-auto max-w-6xl p-2 md:p-12 h-5/6 font-sans"
+        id="about"
+      >
         <h2 className="my-2 text-center text-3xl text-blue-900  font-bold uppercase">
           About Us !
         </h2>
@@ -23,20 +26,20 @@ const About = () => {
             />
           </div>
           <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8">
-            <h3 className="text-3xl  text-blue-900 font-bold">
+            <h3 className="text-3xl  text-blue-900 font-semibold">
               We create high-quality, custom web applications designed
               specifically to meet the needs of organizations, institutions, and
               SMEs
             </h3>
             <div>
-              <p className="my-3 text-xl text-gray-600 font-semibold">
+              <p className="my-3 text-xl text-black">
                 Our team of experienced software developers is ready to assist
                 in building the applications you envision.
               </p>
             </div>
 
             <div>
-              <p className="my-3 text-xl text-gray-600 font-semibold">
+              <p className="my-3 text-xl text-black">
                 We take responsibility for developing custom software solutions
                 that automate your business processes and enhance efficiency.
               </p>
