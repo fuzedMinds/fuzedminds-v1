@@ -249,7 +249,7 @@ const Services = () => {
         </div>
         <div className="text-white rounded-lg p-3 lg:w-2/5 m-3 items-start ">
           <h1 className="font-sans text-[20px] font-medium">
-            You might have questions !!
+            You might have a question !!
           </h1>
           <h1 className="font-sans text-[36px] font-semibold">
             Why fuzedMinds?

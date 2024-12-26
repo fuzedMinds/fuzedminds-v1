@@ -73,6 +73,14 @@ const Footer = () => {
                     Contact
                   </HashLink>
                 </li>
+                <li className="mb-2">
+                  <HashLink
+                    to="/career#"
+                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                  >
+                    Career
+                  </HashLink>
+                </li>
               </ul>
             </div>
 
@@ -82,14 +90,6 @@ const Footer = () => {
                 OUR SERVICES
               </h6>
               <ul className="text-md">
-                <li className="mb-2">
-                  <HashLink
-                    to="/career#"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
-                  >
-                    Career
-                  </HashLink>
-                </li>
                 {
                   // <li className="mb-2">
                   //   <HashLink
@@ -113,8 +113,16 @@ const Footer = () => {
                     to="#"
                     className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
-                    General IT Consultations
+                    Web Developement
                   </Link>
+                </li>
+                <li className="mb-2">
+                  <HashLink
+                    to="/services#"
+                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                  >
+                    Other
+                  </HashLink>
                 </li>
               </ul>
             </div>
