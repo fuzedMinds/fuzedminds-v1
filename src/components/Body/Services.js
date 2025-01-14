@@ -20,6 +20,8 @@ import oracle from "../../images/tech/oracle.png";
 import php from "../../images/tech/php.png";
 import python from "../../images/tech/python.png";
 import react from "../../images/tech/react.png";
+import fmStamp from "../../images/fuzedMindStamp-removebg.png";
+import stars from "../../images/stars.png";
 
 import webDevelopment from "../../images/service/websiteDevelopement.png";
 import developmentSupport from "../../images/service/developmentSupport.png";
@@ -195,9 +197,9 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center p-10 bg-[#0060b4] mt-4 mb-0">
+      <div className="flex flex-wrap justify-center p-10 bg-[#0060b4]  mb-0">
         <div className="text-white rounded-lg p-3 lg:w-2/5 m-3 items-start">
-          <h1 className="font-sans text-[20px] font-medium">Oure Solution</h1>
+          <h1 className="font-sans text-[20px] font-medium">Our Solution</h1>
           <h1 className="font-sans text-[36px] font-semibold">
             Makes your Business better
           </h1>
@@ -217,35 +219,37 @@ const Services = () => {
             <li>Portfolio</li>
             <li>Event Management</li>
           </ul>
-          <HashLink to="/contact#">
-            <div class="relative group">
-              <button class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
-                <span class="absolute inset-0 rounded-xl bg-gradient-to-r from-white via-red-500 to-orange-500 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
+          <div className="mt-4">
+            <HashLink to="/contact#">
+              <div class="relative group">
+                <button class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
+                  <span class="absolute inset-0 rounded-xl bg-gradient-to-r from-white via-red-500 to-orange-500 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
 
-                <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
-                  <div class="relative z-10 flex items-center space-x-2">
-                    <span class="transition-all duration-500 group-hover:translate-x-1">
-                      Send us your requirement
-                    </span>
-                    <svg
-                      class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
-                      data-slot="icon"
-                      aria-hidden="true"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        clip-rule="evenodd"
-                        d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
-                        fill-rule="evenodd"
-                      ></path>
-                    </svg>
-                  </div>
-                </span>
-              </button>
-            </div>
-          </HashLink>
+                  <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
+                    <div class="relative z-10 flex items-center space-x-2">
+                      <span class="transition-all duration-500 group-hover:translate-x-1">
+                        Send us your requirement
+                      </span>
+                      <svg
+                        class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
+                        data-slot="icon"
+                        aria-hidden="true"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                  </span>
+                </button>
+              </div>
+            </HashLink>
+          </div>
         </div>
         <div className="text-white rounded-lg p-3 lg:w-2/5 m-3 items-start ">
           <h1 className="font-sans text-[20px] font-medium">
@@ -260,17 +264,15 @@ const Services = () => {
             exceed them—every time. With us, you're not just choosing a service
             provider; you're choosing a partner committed to your success.
           </p>
+          <img className="md:h-48 md:p-4" src={fmStamp} />
         </div>
       </div>
+
       <div className="bg-gray-100 pt-10 pb-10">
         <div className="flex flex-wrap justify-center p-3 font-sans">
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md border rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
-              <img
-                className="rounded-full"
-                src={webDevelopment}
-                loading="lazy"
-              />
+              <img className="rounded-lg" src={webDevelopment} loading="lazy" />
             </div>
             <h3 className="  text-blue-900 text-2xl">Web Development</h3>
             <div>
@@ -286,7 +288,7 @@ const Services = () => {
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
               <img
-                className="rounded-full"
+                className="rounded-lg"
                 src={androidAppDevelopment}
                 loading="lazy"
               />
@@ -307,7 +309,7 @@ const Services = () => {
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
               <img
-                className="rounded-full"
+                className="rounded-lg"
                 src={iosAppDevelopment}
                 loading="lazy"
               />
@@ -325,11 +327,7 @@ const Services = () => {
           </div>
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
-              <img
-                className="rounded-full"
-                src={apiIntegration}
-                loading="lazy"
-              />
+              <img className="rounded-lg" src={apiIntegration} loading="lazy" />
             </div>
             <h3 className="  text-blue-900 text-2xl">API Integration</h3>
             <div>
@@ -344,7 +342,7 @@ const Services = () => {
           </div>
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
-              <img className="rounded-full" src={devOps} loading="lazy" />
+              <img className="rounded-lg" src={devOps} loading="lazy" />
             </div>
             <h3 className="  text-blue-900 text-2xl">DevOps</h3>
             <div>
@@ -359,7 +357,7 @@ const Services = () => {
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
               <img
-                className="rounded-full"
+                className="rounded-lg"
                 src={architectureDesigning}
                 loading="lazy"
               />
@@ -376,7 +374,7 @@ const Services = () => {
           </div>
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
-              <img className="rounded-full" src={customjars} loading="lazy" />
+              <img className="rounded-lg" src={customjars} loading="lazy" />
             </div>
             <h3 className="  text-blue-900 text-2xl">Custom jars</h3>
             <div>
@@ -390,7 +388,7 @@ const Services = () => {
           </div>
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
-              <img className="rounded-full" src={customAPI} loading="lazy" />
+              <img className="rounded-lg" src={customAPI} loading="lazy" />
             </div>
             <h3 className="  text-blue-900 text-2xl">Custom API</h3>
             <div>
@@ -404,11 +402,7 @@ const Services = () => {
           </div>
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
-              <img
-                className="rounded-full"
-                src={sprintPlanning}
-                loading="lazy"
-              />
+              <img className="rounded-lg" src={sprintPlanning} loading="lazy" />
             </div>
             <h3 className="  text-blue-900 text-2xl">Sprint Planning</h3>
             <div>
@@ -424,7 +418,7 @@ const Services = () => {
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
               <img
-                className="rounded-full"
+                className="rounded-lg"
                 src={developmentSupport}
                 loading="lazy"
               />
@@ -442,11 +436,7 @@ const Services = () => {
           </div>
           <div className="transition-all hover:bg-[#e5f1fb] bg-white shadow-md  border  rounded-lg p-3 group w-[357px] m-3">
             <div className="rounded-full w-[60px] h-[60px] bg-white flex items-center justify-center">
-              <img
-                className="rounded-full"
-                src={itConsultation}
-                loading="lazy"
-              />
+              <img className="rounded-lg" src={itConsultation} loading="lazy" />
             </div>
             <h3 className="  text-blue-900 text-2xl">IT Consultation</h3>
             <div>

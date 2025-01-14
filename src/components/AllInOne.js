@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 
 const AllInOne = () => {
   return (
-    <div className="flex flex-wrap justify-center p-10 bg-yellow-400 mt-4 mb-0">
+    <div className="flex flex-wrap justify-center p-10 bg-yellow-400 mb-0">
       <div className="text-black rounded-lg p-3 lg:w-2/5 m-3 items-start">
         <h1 className="font-sans text-[20px] font-medium">
           A one-stop solution
