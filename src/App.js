@@ -16,6 +16,7 @@ import Contact from "./components/Body/Contact";
 import { Helmet } from "react-helmet";
 import Services from "./components/Body/Services";
 import Career from "./components/Body/Career";
+import SkillDevelopement from "./components/Body/SkillDevelopement";
 
 function App() {
   useEffect(() => {
@@ -50,6 +51,7 @@ function App() {
             <Route path="/" element={<Main />} />
             <Route path="/home" element={<Main />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/skilldevelopment" element={<SkillDevelopement />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/career" element={<Career />} />
             <Route path="/internship" element={<Internship />} />

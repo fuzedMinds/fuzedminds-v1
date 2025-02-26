@@ -22,6 +22,7 @@ import python from "../../images/tech/python.png";
 import react from "../../images/tech/react.png";
 import fmStamp from "../../images/fuzedMindStamp-removebg.png";
 import stars from "../../images/stars.png";
+import services from "../../images/services-1.svg";
 
 import webDevelopment from "../../images/service/websiteDevelopement.png";
 import developmentSupport from "../../images/service/developmentSupport.png";
@@ -52,148 +53,170 @@ const Services = () => {
         <div>
           <NavBar />
         </div>
-        <div className=" md:max-h-screen  mx-auto  h-[300px] lg:h-[600px] mt-12">
-          <div className="mt-8 md:mt-0 object-cover h-[300px] lg:h-[600px] md:h-fit w-screen relative -z-1 top-0  ">
-            <div className=" flex h-1/3 ">
-              <div className="h-full w-1/6  bg-[#f0f0f0] flex justify-center items-center">
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={ai}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#e8fdf6] flex justify-center items-center">
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={android}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#fbe0e6] flex justify-center items-center">
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={angular}
-                />
-              </div>
-              <div className="h-full w-1/6  bg-[#dffbdb] flex justify-center items-center">
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={css}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#f0f0f0] flex justify-center items-center">
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={db}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#f7f7e3] flex justify-center items-center">
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={dotnet}
-                />
-              </div>
-            </div>
-            <div className=" flex h-1/3">
-              <div className="h-full w-1/6 bg-[#fbe0e6] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={git}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#e5f1fb] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={html}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#dffbdb] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={ios}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#f7f7f7] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={java}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#f7f7e3] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={jira}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#f7f7f7] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={js}
-                />
-              </div>
-            </div>
-            <div className=" flex h-1/3">
-              <div className="h-full w-1/6 bg-[#e8fdf6] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={mysql}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#f0f0f0] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={nodejs}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#fbe0e6] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={oracle}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#e5f1fb] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={php}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#e8fdf6] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={python}
-                />
-              </div>
-              <div className="h-full w-1/6 bg-[#fbe0e6] flex justify-center items-center">
-                {" "}
-                <img
-                  className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
-                  src={react}
-                />
-              </div>
+        {
+          // <div className=" md:max-h-screen  mx-auto  h-[300px] lg:h-[600px] mt-12">
+          //   <div className="mt-8 md:mt-0 object-cover h-[300px] lg:h-[600px] md:h-fit w-screen relative -z-1 top-0  ">
+          //     <div className=" flex h-1/3 ">
+          //       <div className="h-full w-1/6  bg-[#f0f0f0] flex justify-center items-center">
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={ai}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#e8fdf6] flex justify-center items-center">
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={android}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#fbe0e6] flex justify-center items-center">
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={angular}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6  bg-[#dffbdb] flex justify-center items-center">
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={css}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#f0f0f0] flex justify-center items-center">
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={db}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#f7f7e3] flex justify-center items-center">
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={dotnet}
+          //         />
+          //       </div>
+          //     </div>
+          //     <div className=" flex h-1/3">
+          //       <div className="h-full w-1/6 bg-[#fbe0e6] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={git}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#e5f1fb] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={html}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#dffbdb] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={ios}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#f7f7f7] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={java}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#f7f7e3] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={jira}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#f7f7f7] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={js}
+          //         />
+          //       </div>
+          //     </div>
+          //     <div className=" flex h-1/3">
+          //       <div className="h-full w-1/6 bg-[#e8fdf6] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={mysql}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#f0f0f0] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={nodejs}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#fbe0e6] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={oracle}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#e5f1fb] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={php}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#e8fdf6] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={python}
+          //         />
+          //       </div>
+          //       <div className="h-full w-1/6 bg-[#fbe0e6] flex justify-center items-center">
+          //         {" "}
+          //         <img
+          //           className="h-2/5  animate-rotate-y animate-infinite animate-duration-[15000ms] animate-delay-0 "
+          //           src={react}
+          //         />
+          //       </div>
+          //     </div>
+          //   </div>
+          //   <div
+          //     data-aos="fade-up"
+          //     className="absolute max-w-screen-xl mx-auto top-10 mt-12 md:mt-20 flex items-center my-auto justify-between "
+          //   >
+          //     <div className="flex flex-col justify-center text-center md:mt-20 md:pl-8 mt-5 bg-white rounded-r-lg shadow-md">
+          //       <div className=" p-4 mb-5 md:text-5xl text-2xl font-bold text-blue-900 font-sans">
+          //         {/* We build digital solutions to help businesses scale */}
+          //         We offer
+          //         <span className="text-[#fb443a]"> services </span> that are
+          //         tailored to your needs.
+          //       </div>
+          //       <div className=" p-4 mb-5 md:text-xl text-2xl font-bold text-black font-sans">
+          //         Get business solutions made just for you. Let us help you grow
+          //         and succeed!
+          //       </div>
+          //     </div>
+          //   </div>
+          // </div>
+        }
+        <div className="flex flex-col lg:flex-row py-8 text-center lg:text-left m-auto overflow-hidden mx-4 mt-8 lg:mt-0 p-2 md:p-12  mr-0 ml-0 lg:h-[570px] ">
+          <div className="lg:w-1/2 flex flex-col justify-center">
+            <h1 className="mt-10 mb-5 md:text-4xl text-3xl font-semibold text-blue-900 font-sans">
+              {/* We build digital solutions to help businesses scale */}
+              We offer
+              <span className="text-[#fb443a]"> services </span> that are
+              tailored to your needs.
+            </h1>
+            <div className="text-xl font-semibold tracking-tight mb-5 text-gray-700 font-sans">
+              Get business solutions made just for you. Let us help you grow and
+              succeed!
             </div>
           </div>
-
-          <div
-            data-aos="fade-up"
-            className="absolute max-w-screen-xl mx-auto top-10 mt-12 md:mt-20 flex items-center my-auto justify-between "
-          >
-            <div className="flex flex-col justify-center text-center md:mt-20 md:pl-8 mt-5 ">
-              <h1 className="mb-5 md:text-5xl text-2xl font-bold text-blue-900 font-sans bg-white bg-opacity-45  rounded-lg shadow-md">
-                {/* We build digital solutions to help businesses scale */}
-                We offer
-                <span className="text-[#fb443a]"> services </span> that are
-                tailored to your needs.
-              </h1>
-            </div>
+          <div className=" h-80  lg:w-1/2 lg:h-[540px] bg-white rounded-lg">
+            <img className="h-fit rounded-lg " src={services} />
           </div>
         </div>
       </div>
