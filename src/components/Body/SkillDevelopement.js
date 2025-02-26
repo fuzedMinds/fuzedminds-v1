@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Link, useNavigate } from "react-router-dom";
 
-import skillDevelopement from "../../images/skillDevelopement.jpg";
+import skillDevelopement from "../../images/skillDevelopement.svg";
 import img1 from "../../images/java-backend.avif";
 import img2 from "../../images/java-react-fullstack.avif";
 import img3 from "../../images/java-angular-fullstack.avif";

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://www.fuzedminds.com/</loc>
 	<lastmod>2024-09-08T10:25:02+01:00</lastmod>
@@ -12,6 +11,15 @@
 	<priority>1.0</priority>
 </url>
 <url>
+	<loc>https://www.fuzedminds.com/career</loc>
+	<lastmod>2024-09-08T10:25:02+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.fuzedminds.com/skilldevelopment</loc>
+	<lastmod>2024-09-08T10:25:02+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 	<loc>https://www.fuzedminds.com/home</loc>
 	<lastmod>2024-09-08T10:25:02+01:00</lastmod>
 	<priority>1.0</priority>
